@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  
+<head>
+  <meta name="author" content="Fernando Lima" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Facebook Login Legacy</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="center">
+      <a href="#">FACEBOOK</a>
+      <form action="#" name="login-form" method="post" accept-charset="utf-8">
+        <div class="grid">
+          <!--LOGIN-->
+          <div class="form-group">
+            <label for="username">Login <span class="required">*</span></label>
+            <input type="text" name="username" id="username" placeholder="Email ou Telefone" required />
+          </div>
+          <!--PASSWORD-->
+          <div class="form-group pass">
+            <label for="password">Senha <span class="required">*</span></label>
+            <input type="password" name="password" id="password" placeholder="Senha" required />
+            <a href="#">Esqueci a senha</a>
+          </div>
+        </div>
+        <!--ACTIONS-->
+        <div class="form-group-actions">
+          <button type="submit">Entrar</button>
+        </div>
+      </form>
+    </div>
+  </header>
+  
+  <main class="center">
+    <!--HERO SECTION-->
+    <section> 
+      <div class="hero">
+        <h1>Facebook helps you connect and share with the people in your life</h1>
+        <img src="./images/networking-sample.png" alt="" />
+      </div> 
+    </section>
+    <!--SIGNUP-->
+    <section>
+      <div class="center">
+        <div class="sign-up">
+          <h2>Create an Account</h2>
+          <p>It's free and always will be.</p>
+          <form action="#" method="post" accept-charset="utf-8">
+            <!--FNAME AND LNAME-->
+            <div class="form-group name">
+              <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+              <input type="text" name="last-name" id="last-name" placeholder="Last Name" required/>
+            </div>
+            <!--EMAIL-->
+            <div class="form-group">
+              <input type="email" name="email" id="email" placeholder="Email" required/>
+            </div>
+            <!--PASSWORD-->
+            <div class="form-group">
+              <input type="password" name="newPassword" id="newPassword" required/>
+            </div>
+            <!--BIRTHDAY-->
+            <fieldset class="birthday-fieldset">
+              <legend>Birthday</legend>
+              
+              <div class="form-group birthday">
+              <div class="birthday-fields">
+                <input type="number" name="day" id="day" min="1" max="31" placeholder="31" required/>
+                <input type="number" name="month" id="month" min="1" max="12" placeholder="12" required/>
+                <input type="number" name="year" id="year" min="1990" max="2008" placeholder="2008" />
+              </div>
+              <a href="#">why I need to provide my birthday?</a>
+            </div>
+              
+            </fieldset>
+            <!--GENDER-->
+            <div class="form-group radio">
+              <div class="radio-group">
+                <input type="radio" name="gender" id="male" Value="Male">
+                <label for="male">Male</label>
+              </div>
+              <div class="radio-group">
+                <input type="radio" name="gender" id="female" value="Female">
+                <label for="female">Female</label>
+              </div>
+            </div>
+            <div class="form-group confirmation">
+              <p>By clicking Create an account, you agree to our Terms and confirm that you have read our Data Policy, including our cokiee Policy. You may receive SMS message notifications from Facebook and can opt out at any time</p>
+            </div>
+            <div class="form-group actions">
+              <button type="submit">Create Account!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+</body>
+
+</html>
