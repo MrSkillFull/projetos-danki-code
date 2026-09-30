@@ -10,7 +10,13 @@ Todas as mudanças relevantes deste repositório são registradas neste arquivo,
 
 ---
 
-## [Não publicado]
+## [Não alterado]
+
+### adicionado
+
+- 
+
+## [1.0.0] - 2026-09-30
 
 Primeira versão consolidada do repositório: coleção de projetos de estudo do curso de Desenvolvimento Web da Danki Code.
 
