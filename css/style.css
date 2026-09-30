@@ -1,0 +1,10 @@
+/* usar esse arquivo para sobreescrever classes do materialize */
+
+:root{
+    --purple-darken-4: #4a148c
+}
+
+.card-title{
+    background-color: var(--purple-darken-4);
+    color: white;
+}
